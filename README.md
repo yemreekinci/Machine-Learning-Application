@@ -1,7 +1,6 @@
 # Machine-Learning-Application
 İstanbul Arel University Advanced Object Oriented Programming Course Final Project
 
-**TR**
 # 🚗 Araç Fiyat Tahmini (Makine Öğrenmesi Projesi)
 
 Bu proje, ikinci el araçların satış fiyatlarını tahmin etmek amacıyla geliştirilmiş bir **Makine Öğrenmesi (ML)** uygulamasıdır. Python kullanılarak geliştirilmiş olup veri analizi, model eğitimi ve tahmin süreçlerini içermektedir.
@@ -37,16 +36,14 @@ CarPricePrediction
 ## ⚙️ Kurulum
 Projeyi çalıştırmak için sanal bir ortam oluşturup bağımlılıkları yüklemeniz önerilir:
 
-# Sanal ortam oluşturma
+**Sanal ortam oluşturma**
 python -m venv venv
 
-# Sanal ortamı aktif etme (Windows)
+**Sanal ortamı aktif etme (Windows)**
 venv\Scripts\activate
 
-# Gerekli kütüphaneleri yükleme
+**Gerekli kütüphaneleri yükleme**
 pip install -r Requirements.txt
-
-**EN**
 
 # 🚗 Car Price Prediction (Machine Learning Project)
 
@@ -58,6 +55,7 @@ This project is a **Machine Learning (ML)** application developed to predict the
 - Pandas
 - NumPy
 - Scikit-Learn
+- Streamlit
 - Matplotlib / Seaborn *(optional – for data visualization)*
 - Jupyter Notebook
 
@@ -82,14 +80,11 @@ CarPricePrediction
 ## ⚙️ Setup
 To run this project, it is recommended to create a virtual environment and install the dependencies:
 
-# Create virtual environment
+**Create virtual environment**
 python -m venv venv
 
-# Activate virtual environment (Windows)
+**Activate virtual environment (Windows)**
 venv\Scripts\activate
 
-# Activate virtual environment (macOS/Linux)
-source venv/bin/activate
-
-# Install dependencies
+**Install dependencies**
 pip install -r Requirements.txt
